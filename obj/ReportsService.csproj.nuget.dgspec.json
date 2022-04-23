@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Alex_Learn\\DBS\\SemFour\\Challenges\\Repeat\\ReportsService\\ReportsService.csproj": {}
+    "G:\\Alex_Learn\\DBS\\LastStand\\ReportsService\\ReportsService.csproj": {}
   },
   "projects": {
-    "G:\\Alex_Learn\\DBS\\SemFour\\Challenges\\Repeat\\ReportsService\\ReportsService.csproj": {
+    "G:\\Alex_Learn\\DBS\\LastStand\\ReportsService\\ReportsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Alex_Learn\\DBS\\SemFour\\Challenges\\Repeat\\ReportsService\\ReportsService.csproj",
+        "projectUniqueName": "G:\\Alex_Learn\\DBS\\LastStand\\ReportsService\\ReportsService.csproj",
         "projectName": "ReportsService",
-        "projectPath": "G:\\Alex_Learn\\DBS\\SemFour\\Challenges\\Repeat\\ReportsService\\ReportsService.csproj",
+        "projectPath": "G:\\Alex_Learn\\DBS\\LastStand\\ReportsService\\ReportsService.csproj",
         "packagesPath": "C:\\Users\\braic\\.nuget\\packages\\",
-        "outputPath": "G:\\Alex_Learn\\DBS\\SemFour\\Challenges\\Repeat\\ReportsService\\obj\\",
+        "outputPath": "G:\\Alex_Learn\\DBS\\LastStand\\ReportsService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

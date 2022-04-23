@@ -9,8 +9,7 @@ namespace ReportsService.Modules
         public int Id { get; set; }
 
         [Required]
-        [DisplayName("Title")]
-        public string? ReportName { get; set; }
+        public string? Title { get; set; }
 
         [Required]
         [MaxLength(250)]

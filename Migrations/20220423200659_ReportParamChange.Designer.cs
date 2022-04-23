@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ReportsService.Data;
 
@@ -11,9 +12,10 @@ using ReportsService.Data;
 namespace ReportsService.Migrations
 {
     [DbContext(typeof(ReportsServiceContext))]
-    partial class ReportsServiceContextModelSnapshot : ModelSnapshot
+    [Migration("20220423200659_ReportParamChange")]
+    partial class ReportParamChange
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

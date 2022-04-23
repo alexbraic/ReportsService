@@ -77,8 +77,9 @@ namespace ReportsService.Controllers
         {
             _context.Report.Add(report);
             await _context.SaveChangesAsync();
+            return Ok(await _context.Report.ToListAsync());
 
-            return CreatedAtAction("GetReport", new { id = report.Id }, report);
+            //return CreatedAtAction(nameof(GetReport), new { id = report.Id }, report);
         }
 
         // DELETE: api/Reports/5
